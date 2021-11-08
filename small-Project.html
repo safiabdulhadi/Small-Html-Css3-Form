@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Small project</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: tomato;
+      }
+
+      form {
+        top: 30%;
+        left: 40%;
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        background-color: white;
+        padding: 10px 10px 80px 10px;
+        border-radius: 20px;
+        margin: 50px auto;
+      }
+      form {
+        text-align: center;
+        width: 250px;
+      }
+      img {
+        width: 130px;
+        height: 130px;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      input {
+        border: 0;
+        outline: 0;
+        box-shadow: 0.2px 0.2px 1px gray, -0.2px -0.2px 1px gray;
+        padding: 5px;
+        height: 20px;
+        width: 90%;
+        border-radius: 20px;
+        text-align: center;
+      }
+      .input1 {
+        font-size: 30px;
+        margin: 1px;
+        border-radius: 10px;
+      }
+      .input2 {
+        font-size: 30px;
+        margin-top: 1px;
+        border-radius: 10px;
+      }
+      .btn {
+        text-align: center;
+        margin: 5px;
+        background-color: tomato;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" class="form">
+      <img class="img" src="contact-icon.png" alt="icon" />
+      <div class="input1">
+        <label for="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Enter Username"
+        />
+        <br />
+      </div>
+      <div class="input2">
+        <label for="password"></label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Enter your password"
+        /><br />
+      </div>
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </body>
+</html>
